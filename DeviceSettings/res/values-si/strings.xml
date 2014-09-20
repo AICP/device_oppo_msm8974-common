@@ -15,4 +15,27 @@
   ~  See the License for the specific language governing permissions and
   ~  limitations under the License.
   -->
-<resources/>
+<resources>
+  <string name="app_name">උපාංගයේ සැකසීම්</string>
+  <string name="title_activity_device_settings">උපාංගයේ සැකසීම්</string>
+  <string name="defaults_button">පෙරනිමියට යලි පිහිටුවන්න</string>
+  <string name="title_haptic">ස්පර්ශක කම්පන</string>
+  <string name="vibrator_title">කම්පකය</string>
+  <string name="vibrator_tuning_title">කම්පනයේ ප්‍රබලතාව</string>
+  <string name="vibrator_tuning_summary_head">කම්පන ප්‍රතිචාරයේ ප්‍රබලතාව සීරුමාරු කරන්න</string>
+  <string name="title_touchscreen">ස්පර්ශ තිරය</string>
+  <string name="touchscreen_double_tap_gesture_title">උපාංගය අවදි කරන්න</string>
+  <string name="touchscreen_double_tap_gesture_summary">උපාංගය අවදි කිරීමට දෙවරක් තට්ටු කරන්න</string>
+  <string name="touchscreen_camera_gesture_title">කැමරාව</string>
+  <string name="touchscreen_camera_gesture_summary">කැමරාව සක්‍රීය කිරීමට රවුමක් අඳින්න</string>
+  <string name="touchscreen_music_gesture_title">සංගීතය</string>
+  <string name="touchscreen_flashlight_gesture_title">සැණෙලි-එළිය</string>
+  <string name="touchscreen_flashlight_gesture_summary">සැණෙලි-එළිය ටොගලනයට \'V\' අඳින්න</string>
+  <string name="touchscreen_music_gesture_summary">සංගීත ධාවනය පාලනයට අභිණයන් භාවිතා කරන්න \n
+    • ධාවනය/විරාමය සඳහා ඇඟිලි දෙකක් සිරස්ව\n
+    • පෙර ඛණ්ඩය සඳහා වම් ඊතලයක් අඳින්න\n
+    • මීළඟ ඛණ්ඩය සඳහා දකුණු ඊතලයක් අඳින්න</string>
+  <string name="title_other">වෙනත්</string>
+  <string name="fast_charge_title">සීඝ්‍ර ආරෝපණය</string>
+  <string name="fast_charge_summary">උපාංගය USB හරහා සම්බන්ධ විට සීඝ්‍ර ආරෝපණය සබල කරන්න</string>
+</resources>

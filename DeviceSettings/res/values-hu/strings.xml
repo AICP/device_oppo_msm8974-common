@@ -15,4 +15,27 @@
   ~  See the License for the specific language governing permissions and
   ~  limitations under the License.
   -->
-<resources/>
+<resources>
+  <string name="app_name">Eszköz beállítások</string>
+  <string name="title_activity_device_settings">Eszköz beállítások</string>
+  <string name="defaults_button">Visszaállítás alaphelyzetbe</string>
+  <string name="title_haptic">Érintési visszajelzés</string>
+  <string name="vibrator_title">Rezgés</string>
+  <string name="vibrator_tuning_title">Rezgés erőssége</string>
+  <string name="vibrator_tuning_summary_head">Állítsa be a rezgés erősségét</string>
+  <string name="title_touchscreen">Érintőképernyő</string>
+  <string name="touchscreen_double_tap_gesture_title">Eszköz felébresztése</string>
+  <string name="touchscreen_double_tap_gesture_summary">Dupla érintés felébreszti az eszközt</string>
+  <string name="touchscreen_camera_gesture_title">Kamera</string>
+  <string name="touchscreen_camera_gesture_summary">Rajzoljon egy kört a kamera aktiválásához</string>
+  <string name="touchscreen_music_gesture_title">Zene</string>
+  <string name="touchscreen_flashlight_gesture_title">Zseblámpa</string>
+  <string name="touchscreen_flashlight_gesture_summary">Rajzoljon egy \"V\" betűt a zseblámpához</string>
+  <string name="touchscreen_music_gesture_summary">Használja a kézmozdulatokat zene vezérléséhez\n
+    • Két ujjal függőlegesen lejátszás/szünet\n
+    • Balra nyíl előző szám\n
+    • Jobbra nyíl következő szám</string>
+  <string name="title_other">Egyéb</string>
+  <string name="fast_charge_title">Gyors töltés</string>
+  <string name="fast_charge_summary">Lehetővé teszi a készülék USB-n keresztüli gyorsabb töltését</string>
+</resources>
