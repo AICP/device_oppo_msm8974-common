@@ -44,4 +44,8 @@
     <string name="fastcharge_enabled_value">1</string>
     <string name="fastcharge_disabled_value">0</string>
 
+    <string name="hwkeys_sysfs_file">"/proc/touchpanel/keypad_enable"</string>
+    <string name="hwkeys_enabled_value">1</string>
+    <string name="hwkeys_disabled_value">0</string>
+
 </resources>

@@ -26,6 +26,7 @@ import com.cyanogenmod.settings.device.prefs.MusicPreference;
 import com.cyanogenmod.settings.device.prefs.TorchPreference;
 import com.cyanogenmod.settings.device.prefs.FastChargePreference;
 import com.cyanogenmod.settings.device.prefs.VibratorTuningPreference;
+import com.cyanogenmod.settings.device.prefs.HwKeysPreference;
 
 public class Startup extends BroadcastReceiver {
 
@@ -37,5 +38,6 @@ public class Startup extends BroadcastReceiver {
         MusicPreference.restore(context);
         TorchPreference.restore(context);
         FastChargePreference.restore(context);
+        HwKeysPreference.restore(context);
     }
 }

@@ -21,6 +21,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
+import android.view.MenuItem;
 
 import com.cyanogenmod.settings.device.prefs.KnockOnPreference;
 import com.cyanogenmod.settings.device.prefs.CameraPreference;
@@ -28,6 +29,7 @@ import com.cyanogenmod.settings.device.prefs.MusicPreference;
 import com.cyanogenmod.settings.device.prefs.TorchPreference;
 import com.cyanogenmod.settings.device.prefs.FastChargePreference;
 import com.cyanogenmod.settings.device.prefs.VibratorTuningPreference;
+import com.cyanogenmod.settings.device.prefs.HwKeysPreference;
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On
@@ -48,7 +50,6 @@ public class DeviceSettings extends PreferenceActivity {
      * shown on tablets.
      */
     private static final boolean ALWAYS_SIMPLE_PREFS = false;
-
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
@@ -81,6 +82,7 @@ public class DeviceSettings extends PreferenceActivity {
         ((MusicPreference) findPreference("music_gesture")).checkSupport();
         ((TorchPreference) findPreference("torch_gesture")).checkSupport();
         ((FastChargePreference) findPreference("fast_charge")).checkSupport();
+        ((HwKeysPreference) findPreference("hw_keys")).checkSupport();
     }
 
     /**

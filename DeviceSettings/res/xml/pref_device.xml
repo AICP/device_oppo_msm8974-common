@@ -53,4 +53,13 @@
             android:summary="@string/fast_charge_summary" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/category_general_title"
+        android:dependency="hw_keys">
+        <com.cyanogenmod.settings.device.prefs.HwKeysPreference
+            android:key="hw_keys"
+            android:title="@string/hw_keys_title"
+            android:summary="@string/hw_keys_summary" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

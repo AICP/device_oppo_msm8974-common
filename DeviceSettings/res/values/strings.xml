@@ -16,6 +16,7 @@
 
 <resources>
     <string name="app_name">DeviceSettings</string>
+
     <string name="title_activity_device_settings">Device Settings</string>
 
     <string name="defaults_button">Reset to default</string>
@@ -46,5 +47,9 @@
     <string name="title_other">Other</string>
     <string name="fast_charge_title">Fast charge</string>
     <string name="fast_charge_summary">Allow device faster charging while on USB</string>
+
+    <string name="category_general_title">General</string>
+    <string name="hw_keys_title">Hardware keys enabled</string>
+    <string name="hw_keys_summary">Uncheck to completely disable hardware keys</string>
 
 </resources>
