@@ -183,3 +183,6 @@
 
 # NFC
 /dev/pn544                0600   nfc        nfc
+
+# HW KEYS
+/proc/touchpanel/keypad_enable	0660	root	system
