@@ -45,8 +45,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/title_other"
-        android:dependency="fast_charge">
+        android:title="@string/title_other" >
         <com.cyanogenmod.settings.device.prefs.FastChargePreference
             android:key="fast_charge"
             android:title="@string/fast_charge_title"
@@ -54,8 +53,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/category_general_title"
-        android:dependency="hw_keys">
+        android:title="@string/category_general_title" >
         <com.cyanogenmod.settings.device.prefs.HwKeysPreference
             android:key="hw_keys"
             android:title="@string/hw_keys_title"

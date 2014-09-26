@@ -82,6 +82,7 @@ public class DeviceSettings extends PreferenceActivity {
         ((MusicPreference) findPreference("music_gesture")).checkSupport();
         ((TorchPreference) findPreference("torch_gesture")).checkSupport();
         ((FastChargePreference) findPreference("fast_charge")).checkSupport();
+        ((HwKeysPreference) findPreference("hw_keys")).checkSupport();
     }
 
     /**
