@@ -68,7 +68,7 @@ public class HwKeysPreference extends CheckBoxPreference {
             return;
         }
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
-        String value = (settings.getBoolean("hw_keys", false) ? ENABLED_VALUE : DISABLED_VALUE);
+        String value = (settings.getBoolean("hw_keys", true) ? ENABLED_VALUE : DISABLED_VALUE);
         Utils.writeValue(SYSFS_PATH, value);
     }
 
