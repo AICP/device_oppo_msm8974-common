@@ -87,7 +87,7 @@ public class HwKeysPreference extends CheckBoxPreference {
             return true;
         } else {
             Log.w(TAG, "File exists : " + SYSFS_PATH + " : " + fileExists);
-            setEnabled(false);
+            setEnabled(true);
             return false;
         }
     }
