@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013, Android Open Kang Project
+<!-- Copyright (C) 2014 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +14,10 @@
      limitations under the License.
 -->
 
+<!-- Telecomm resources that may need to be customized
+     for different hardware or product builds. -->
 <resources>
-    <!-- Whether or not device settings should be displayed or not for the device -->
-    <bool name="has_advanced_settings">true</bool>
+    <!-- Flag indicating if the tty is enabled -->
+    <bool name="tty_enabled">true</bool>
 </resources>
+

@@ -201,7 +201,8 @@ PRODUCT_PACKAGES += \
     ethertypes \
     curl \
     libnl_2 \
-    libbson
+    libbson \
+    libcnefeatureconfig
 
 # ANT+
 PRODUCT_PACKAGES += \
@@ -212,6 +213,11 @@ PRODUCT_PACKAGES += \
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
+
+# proprietary wifi display, if available
+ifneq ($(QCPATH),)
+PRODUCT_BOOT_JARS += WfdCommon
+endif
 
 # Enable Bluetooth HFP service
 PRODUCT_PROPERTY_OVERRIDES +=
@@ -234,9 +240,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.perf.cores_online=2 \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.telephony.call_ring.multiple=0
-
-PRODUCT_PACKAGES += \
-    DeviceSettings
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -261,6 +264,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml
+
+# Default to AwesomePlayer
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.use-awesome=true
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
